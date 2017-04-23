@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{background-color: skyblue;}
+/*navigation*/
+.navigation ul li {
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+  color: black;
+  margin: 20px 30px;
+}
+.navigation ul li:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
+}
+/*buttons*/
+button{
+  margin: 20px 50px;
+  display: inline-block;
+  padding: 15px 20px;
+  border: 0;
+  box-shadow: none;
+  appearance: none;
+  border-radius: 0;
+}
+button:nth-of-type(1){
+  background-color: yellow;
+  color: lightgreen;
+}
+button:nth-of-type(2){
+  background-color: teal;
+  color: pink;
+}
+button:nth-of-type(3){
+  background-color: orange;
+  color: green;
+}
+button:hover{
+  border: 1px solid red;
+  text-decoration: underline;
+}
